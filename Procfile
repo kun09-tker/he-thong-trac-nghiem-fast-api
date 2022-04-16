@@ -1,0 +1,1 @@
+web: gunicorn -w 4 -k uvicorn.Morkers.Uvicornorker FastAPI.FastAPI_Server:app
